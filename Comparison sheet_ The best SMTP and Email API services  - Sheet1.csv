@@ -1,0 +1,85 @@
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,Postmark,,Sendgrid,,Mailgun,,MessageBird (formely Sparkpost),,Amazon SES,,Mailchimp Transactional (formerly Mandrill),,Brevo (formerly sendinblue)
+,,,,,,,,,,,,,,,
+,,,postmarkapp.com,,sendgrid.com,,mailgun.com,,https://messagebird.com/email/cloud-sending,,aws.amazon.com/ses ,,mailchimp.com/features/transactional-email/,,https://www.brevo.com/
+,,,,,,,,,,,,,,,
+,Pricing,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Pricing model,,"
+
+https://postmarkapp.com/pricing",,"Tiered pricing: There are 3 different paid plans that cover different send volumes and features.
+
+https://sendgrid.com/pricing/",,"Tiered pricing: There are 4 different plans that cover different send volumes and features.
+
+https://www.mailgun.com/pricing/",,"Tiered pricing: There are 3 different paid plans that cover different send volumes and features.
+
+https://messagebird.com/pricing/email-sending",,"Straight-forward volume-based pricing: $0.10 for every 1,000 emails you send.
+
+https://aws.amazon.com/ses/pricing/ ",,"Transactional email is available as an add-on only. You must already have a marketing email subscription at Standard level or above. 
+
+Emails are sold in blocks of 25k emails. The price per block changes depending on total email volume. 
+
+https://mailchimp.com/pricing/transactional-email/ ",,"Tiered pricing: There are 3 different paid plans that cover different send volumes and features.
+
+https://www.brevo.com/pricing/"
+,,,,,,,,,,,,,,,
+,"What does it cost to send 10,000 emails?*",,$15/mo,,$19.95/mo (Essentials plan),,$35 (Foundation plan),,$20/mo (Starter),,$1,,$20/mo (+the price of your Mailchimp marketing subscription),,$15/mo (Lite plan)
+,"What does it cost to send 300,000 emails?*",,$245/mo,,$249/mo (Pro 300k plan),,$255/mo (Scale plan 250k emails + overages),,$205/mo (Premier plan + overage fees),,$30,,$240/mo (+the price of your Mailchimp marketing subscription),,$220/mo (Premium plan)
+,What does it cost to send 1M emails*?,,$695/mo,,$602/mo (Pro 700k plan + overages),,$700/mo (Scale plan 1M emails),,$525/mo (Premier),,$100,,$720/mo (+the price of your Mailchimp marketing subscription),,$550/mo (Premium plan)
+,"* If the service offers mutiple plan types for this email volume, we're listing the price for the cheapest plan. ",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,"Standard data retention
+For how long can you access your email insights?",,"45 days by default 
+Postmark stores email content, events (e.g. delivery, click, open), and metadata for all messages for 45 days on all plan types. Retention can be customized from 7 to 365 days if needed.  ",,"3 days 
+(on the Essentials plan. Pro and Premier plans come with 7 days of email history. Extensions are available at an extra charge)",,"5 days
+Log retention and 1 day of message retention on the lowest plan (Foundation). 30 days of log retention on Scale and 7 days of message retention.",,"10 days
+Event data is retained for 10 days, while aggregated metrics are available for up to 6 months)
+",,no info,,"Stats on total deliveries, bounces and rejections, unique opens and clicks, and total opens and clicks—are stored indefinitely. 
+
+A copy of the HTML and text parts of emails sent are stored for 30 days.",,Transactional logs stored indefinitely
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Documentation,,,,,,,,,,,,,,
+,API developer docs,,https://postmarkapp.com/developer/api/overview,,https://docs.sendgrid.com/for-developers/sending-email/api-getting-started,,https://documentation.mailgun.com/en/latest/api_reference.html,,https://developers.sparkpost.com/api/?_ga=2.250190661.237172531.1637112870-1549692369.1636156807,,https://docs.aws.amazon.com/ses/latest/dg/send-email-api.html,,https://mailchimp.com/developer/transactional/api/,,https://developers.brevo.com/docs/send-a-transactional-email
+,SMTP developer docs,,https://postmarkapp.com/developer/user-guide/send-email-with-smtp ,,https://docs.sendgrid.com/for-developers/sending-email/getting-started-smtp,,https://documentation.mailgun.com/en/latest/quickstart-sending.html?highlight=smtp#how-to-start-sending-email ,,https://www.sparkpost.com/docs/getting-started/getting-started-sparkpost/?_ga=2.147087295.943570219.1632831866-741659616.1632305560#smtp ,,https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-email-smtp.html,,https://mailchimp.com/developer/transactional/docs/smtp-integration/,,https://developers.brevo.com/docs/smtp-integration
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Customer support,,,,,,,,,,,,,,
+,Are there tiered support plans?,,"No. 
+Postmark's top-notch customer support via email, chat, or phone is available on all plans (and there's no extra charge for premium support.)",,"Yes.
+Available support channels and response times vary greatly between plans. 
+Sendgrid's Personalized Support gives you access to a dedicated Technical Account manager and starts at $5,000/month. ",,"Yes.
+Chat is only available to customers on Scale plans (and above), phone support is limited to Enterprise customers. Lower plans come with email/ticket support only. ",,"Yes.
+Premier and Enterprise plans come with prioritized support. ",,"Yes. 
+SES plans don’t come with customer support, which can be a challenge to all but the most technical users. If you’re looking for support, you need to purchase an AWS support plan. 
+",,"Yes. Premium plan provide special access to guidance over the phone, and priority chat and email support.
+
+https://mailchimp.com/contact/",,"Yes. Phone support is only available to Premium and Enterprise customers
+
+There doesn't seem to be an option to just get in touch via email. You have to log into your account and creata ticket from there. Here's how."
+,Do they publicly share support happiness ratings?,,Yes,,No,,No,,No,,No,,Yes,,No
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Social Media,,,,,,,,,,,,,,
+,Check the tool's X/Twitter mentions for recent inisghts into customer support and service quality,,@postmarkapp,,@sendgrid @HelpSendGrid,,@mailgun,,@sparkpost,,@AmazonSES,,@mailchimp,,@brevo_official
+,,,,,,,,,,,,,,,
+,,,,,,,,,, ,,,,,
+,,,,,,,,,,,,,,,
+,About the company,,Founded in 2009,,Founded in 2009,,Founded in 2010,,Founded in 2008,,"Founded 2006. 
+Part of the Amazon ecosystem.",,"2012: MailChimp launched Mandrill as its own startup
+2016: MailChimp transitioned Mandrill from stand-alone to add-on
+Mandrill brand changed to ""Mailchimp Transactional""",,Founded in 2007
+,,,Now part of ActiveCampaign,,Acquired by Twilio in 2019,,"Rebranded to Mailgun by Pathwire in early 2021, followed by an acqusition by Sinch later that year. ",,Acquired by Message Bird in 2021,,,,2021: Intuit acquired Mailchimp,,Series B
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,"Last updated Jan 5, 2024. 
+Made by the team at Postmark",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,Spotted an error? We'd be grateful if you could let us know. Thank you! 💛,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,"If you would like to read more about the tools, you can find a full blog post with lots of additional info here. ",,,,,,,,,,,,,,
